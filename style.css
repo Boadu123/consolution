@@ -1,3 +1,91 @@
-h1 {
-  font-style: italic;
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+}
+
+nav div a {
+  background-color: #1b9ce3;
+  padding: 15px;
+  margin-top: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+.link {
+  padding: 10px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.nav-items {
+  display: flex;
+  background-color: black;
+  height: 10vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-items a {
+  color: white;
+}
+
+.head-items {
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  background-image: url("./images/bg-1.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+}
+
+.hero div a {
+  background-color: #1b9ce3;
+  color: white;
+  padding: 15px;
+  margin-left: 15%;
+  border-radius: 15px;
+  margin-top: auto;
+}
+
+.hero div a:hover {
+  background-color: transparent;
+  color: #1B9CE3;
+  border-style: solid;
+}
+
+.hero-1 {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.6;
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.hero-1 h4{
+  color: white;
+  font-size: 20px;
+  margin-left: 15%;
+}
+
+.hero-1 h2{
+  color: white;
+  font-size: 50px;
+  width: 30%;
+  margin-left: 15%;
 }
