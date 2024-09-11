@@ -62,8 +62,8 @@ nav div a {
 
 .hero div a:hover {
   background-color: transparent;
-  color: #1B9CE3;
-  border-style: solid;
+  color: #1b9ce3;
+  border: 1px solid #1b9ce3;
 }
 
 .hero-1 {
@@ -77,13 +77,13 @@ nav div a {
   row-gap: 40px;
 }
 
-.hero-1 h4{
+.hero-1 h4 {
   color: white;
   font-size: 20px;
   margin-left: 15%;
 }
 
-.hero-1 h2{
+.hero-1 h2 {
   color: white;
   font-size: 50px;
   width: 30%;
