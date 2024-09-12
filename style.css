@@ -106,10 +106,13 @@ nav div a {
   border-radius: 10px;
   clip-path: polygon(80% 0, 100% 25%, 100% 100%, 0 100%, 0 0);
   background-color: #d1ebf9;
+  height: 200px;
+  display: flex;
   flex-direction: column;
+  row-gap: 20px;
+  justify-content: center;
   padding: 10px;
-  /* height: 200px; */
-  align-items: center;
+  padding-left: 20px;
 }
 
 .hero-2div:hover {
