@@ -113,6 +113,7 @@ nav div a {
   justify-content: center;
   padding: 10px;
   padding-left: 20px;
+  box-shadow: #1b9ce3;
 }
 
 .hero-2div:hover {
