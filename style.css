@@ -93,12 +93,13 @@ nav div a {
 .hero-2 {
   margin: auto;
   display: flex;
-  width: 60%;
+  width: 70%;
   height: 100%;
   align-items: center;
-  background-color: blueviolet;
   padding-top: 90px;
   gap: 30px;
+  margin-bottom: 80px;
+  margin-top: 80px;
 }
 
 .hero-2div {
@@ -107,6 +108,7 @@ nav div a {
   background-color: #d1ebf9;
   flex-direction: column;
   padding: 10px;
+  height: 130px;
   align-items: center;
 }
 
@@ -120,7 +122,6 @@ nav div a {
   flex-direction: column;
   height: 100%;
   width: 50%;
-  background-color: blueviolet;
   padding: 10px;
 }
 
@@ -134,7 +135,7 @@ nav div a {
 .hero-23 {
   width: 50%;
   border: 2px solid #d1ebf9;
-  height: 72vh;
+  height: 72%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -148,7 +149,7 @@ nav div a {
 }
 
 .hero-23 a {
-  padding: 25px;
+  padding: 15px;
   background-color: #1b9ce3;
   border-radius: 30px;
   color: white;
