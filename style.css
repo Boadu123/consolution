@@ -169,3 +169,108 @@ nav div a {
   padding: 0 20px;
 }
 
+footer h2 {
+  background-color: #1B9CE3;
+  height: 80px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer h2:hover {
+  opacity: 0.9;
+  color: black;
+}
+
+footer a {
+  color: white;
+}
+
+.ft {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  height: 60vh;
+  width: 80vw;
+  margin-left: 12%;
+}
+
+footer h3 {
+  color: white;
+}
+
+footer p {
+  color: white;
+}
+
+.ft-1 {
+  height: 40%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+}
+.ft-2 {
+  height: 40%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.ft-3 {
+  height: 40%;
+  width: 25%;
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+  row-gap: 10px;
+  justify-content: center;
+}
+
+.ft-3 div{
+  display: flex;
+  column-gap: 20px;
+}
+
+.ft-4 {
+  height: 40%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ft-3 i {
+  display: flex;
+}
+
+#foot {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  padding: 20px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+#h-g {
+  display: flex;
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  margin-left: 10%;
+}
+
+footer{
+  background-color: black;
+}
